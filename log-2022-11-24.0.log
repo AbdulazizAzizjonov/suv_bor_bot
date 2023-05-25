@@ -1,0 +1,229 @@
+2022-11-24 14:25:38 - com.company.SuvBorBotApplication - [34mINFO [0;39m - Starting SuvBorBotApplication using Java 17.0.2 on WIN-3AGF5SMQQM9 with PID 6052 (D:\Main Java\suv_bor_bot\target\classes started by User in D:\Main Java\suv_bor_bot)
+2022-11-24 14:25:38 - com.company.SuvBorBotApplication - [39mDEBUG[0;39m - Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-24 14:25:38 - com.company.SuvBorBotApplication - [34mINFO [0;39m - The following 1 profile is active: "dev"
+2022-11-24 14:25:39 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-24 14:25:39 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2022-11-24 14:25:40 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat initialized with port(s): 8080 (http)
+2022-11-24 14:25:40 - o.a.catalina.core.StandardService - [34mINFO [0;39m - Starting service [Tomcat]
+2022-11-24 14:25:40 - o.a.catalina.core.StandardEngine - [34mINFO [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-24 14:25:40 - o.a.c.c.C.[Tomcat].[localhost].[/] - [34mINFO [0;39m - Initializing Spring embedded WebApplicationContext
+2022-11-24 14:25:40 - o.s.b.w.s.c.ServletWebServerApplicationContext - [34mINFO [0;39m - Root WebApplicationContext: initialization completed in 1119 ms
+2022-11-24 14:25:40 - o.h.jpa.internal.util.LogHelper - [34mINFO [0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-24 14:25:40 - org.hibernate.Version - [34mINFO [0;39m - HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-24 14:25:40 - o.h.annotations.common.Version - [34mINFO [0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-24 14:25:40 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Starting...
+2022-11-24 14:25:40 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Start completed.
+2022-11-24 14:25:40 - org.hibernate.dialect.Dialect - [34mINFO [0;39m - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-24 14:25:41 - o.h.e.t.j.p.i.JtaPlatformInitiator - [34mINFO [0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-24 14:25:41 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-24 14:25:41 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - [31mWARN [0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-24 14:25:41 - o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - [31mWARN [0;39m - 
+
+Using generated security password: d77b6fae-226c-4db3-8494-ee3632bdbe29
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-11-24 14:25:41 - o.s.s.web.DefaultSecurityFilterChain - [34mINFO [0;39m - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@184bb873, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@696ce057, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a0f43dc, org.springframework.security.web.header.HeaderWriterFilter@102aa5fc, org.springframework.security.web.csrf.CsrfFilter@7591cbd1, org.springframework.security.web.authentication.logout.LogoutFilter@4c3fcbe7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8c3b634, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1c5d376c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5eba9e41, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@532ea86b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f9980e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f6e6f50, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13809363, org.springframework.security.web.session.SessionManagementFilter@62a81453, org.springframework.security.web.access.ExceptionTranslationFilter@7fb5368e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7c8689e]
+2022-11-24 14:25:41 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-24 14:25:41 - com.company.SuvBorBotApplication - [34mINFO [0;39m - Started SuvBorBotApplication in 3.244 seconds (JVM running for 3.809)
+2022-11-24 14:25:45 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-24 14:25:45 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown initiated...
+2022-11-24 14:25:45 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown completed.
+2022-11-24 14:26:25 - com.company.SuvBorBotApplication - [34mINFO [0;39m - Starting SuvBorBotApplication using Java 17.0.2 on WIN-3AGF5SMQQM9 with PID 8144 (D:\Main Java\suv_bor_bot\target\classes started by User in D:\Main Java\suv_bor_bot)
+2022-11-24 14:26:25 - com.company.SuvBorBotApplication - [39mDEBUG[0;39m - Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-24 14:26:25 - com.company.SuvBorBotApplication - [34mINFO [0;39m - The following 1 profile is active: "dev"
+2022-11-24 14:26:25 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-24 14:26:26 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2022-11-24 14:26:26 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat initialized with port(s): 8080 (http)
+2022-11-24 14:26:26 - o.a.catalina.core.StandardService - [34mINFO [0;39m - Starting service [Tomcat]
+2022-11-24 14:26:26 - o.a.catalina.core.StandardEngine - [34mINFO [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-24 14:26:26 - o.a.c.c.C.[Tomcat].[localhost].[/] - [34mINFO [0;39m - Initializing Spring embedded WebApplicationContext
+2022-11-24 14:26:26 - o.s.b.w.s.c.ServletWebServerApplicationContext - [34mINFO [0;39m - Root WebApplicationContext: initialization completed in 936 ms
+2022-11-24 14:26:26 - o.h.jpa.internal.util.LogHelper - [34mINFO [0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-24 14:26:26 - org.hibernate.Version - [34mINFO [0;39m - HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-24 14:26:26 - o.h.annotations.common.Version - [34mINFO [0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-24 14:26:26 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Starting...
+2022-11-24 14:26:26 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Start completed.
+2022-11-24 14:26:26 - org.hibernate.dialect.Dialect - [34mINFO [0;39m - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-24 14:26:27 - o.h.t.s.i.ExceptionHandlerLoggedImpl - [31mWARN [0;39m - GenerationTarget encountered exception accepting command : Error executing DDL "create table customer (id varchar(255) generated by default as identity, customer_number int8, latitude float8, location bytea, longitude float8, name varchar(255) not null, phone varchar(255) not null, surname varchar(255) not null, primary key (id))" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table customer (id varchar(255) generated by default as identity, customer_number int8, latitude float8, location bytea, longitude float8, name varchar(255) not null, phone varchar(255) not null, surname varchar(255) not null, primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:581)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:526)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:293)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:74)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:220)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:123)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:196)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.company.SuvBorBotApplication.main(SuvBorBotApplication.java:10)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: типом столбца идентификации может быть только smallint, integer или bigint
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:329)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:315)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:291)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:286)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+2022-11-24 14:26:27 - o.h.t.s.i.ExceptionHandlerLoggedImpl - [31mWARN [0;39m - GenerationTarget encountered exception accepting command : Error executing DDL "create table employee (id varchar(255) generated by default as identity, location bytea, phone varchar(255), primary key (id))" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table employee (id varchar(255) generated by default as identity, location bytea, phone varchar(255), primary key (id))" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:581)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:526)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:293)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:74)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:220)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:123)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:196)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.company.SuvBorBotApplication.main(SuvBorBotApplication.java:10)
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: типом столбца идентификации может быть только smallint, integer или bigint
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2675)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2365)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:355)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:490)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:408)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:329)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:315)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:291)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:286)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 34 common frames omitted
+2022-11-24 14:26:27 - o.h.e.t.j.p.i.JtaPlatformInitiator - [34mINFO [0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-24 14:26:27 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-24 14:26:27 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - [31mWARN [0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-24 14:26:27 - o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - [31mWARN [0;39m - 
+
+Using generated security password: 66c6601f-2b03-455d-a769-69f422298ddf
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-11-24 14:26:27 - o.s.s.web.DefaultSecurityFilterChain - [34mINFO [0;39m - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@564d3940, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58ad0586, org.springframework.security.web.context.SecurityContextPersistenceFilter@56976b8b, org.springframework.security.web.header.HeaderWriterFilter@144dc2f7, org.springframework.security.web.csrf.CsrfFilter@102aa5fc, org.springframework.security.web.authentication.logout.LogoutFilter@7a522157, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@746f8520, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@34ede267, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@526fc044, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@17fb5184, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b0575d0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fd0e118, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45635ae1, org.springframework.security.web.session.SessionManagementFilter@19677add, org.springframework.security.web.access.ExceptionTranslationFilter@1c5d376c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5bf4dfb]
+2022-11-24 14:26:27 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-24 14:26:27 - com.company.SuvBorBotApplication - [34mINFO [0;39m - Started SuvBorBotApplication in 2.644 seconds (JVM running for 3.171)
+2022-11-24 14:27:43 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-24 14:27:43 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown initiated...
+2022-11-24 14:27:43 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown completed.
+2022-11-24 14:27:49 - com.company.SuvBorBotApplication - [34mINFO [0;39m - Starting SuvBorBotApplication using Java 17.0.2 on WIN-3AGF5SMQQM9 with PID 4264 (D:\Main Java\suv_bor_bot\target\classes started by User in D:\Main Java\suv_bor_bot)
+2022-11-24 14:27:49 - com.company.SuvBorBotApplication - [39mDEBUG[0;39m - Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-24 14:27:49 - com.company.SuvBorBotApplication - [34mINFO [0;39m - The following 1 profile is active: "dev"
+2022-11-24 14:27:50 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-24 14:27:50 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+2022-11-24 14:27:50 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat initialized with port(s): 8080 (http)
+2022-11-24 14:27:50 - o.a.catalina.core.StandardService - [34mINFO [0;39m - Starting service [Tomcat]
+2022-11-24 14:27:50 - o.a.catalina.core.StandardEngine - [34mINFO [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-24 14:27:50 - o.a.c.c.C.[Tomcat].[localhost].[/] - [34mINFO [0;39m - Initializing Spring embedded WebApplicationContext
+2022-11-24 14:27:50 - o.s.b.w.s.c.ServletWebServerApplicationContext - [34mINFO [0;39m - Root WebApplicationContext: initialization completed in 925 ms
+2022-11-24 14:27:50 - o.h.jpa.internal.util.LogHelper - [34mINFO [0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-24 14:27:50 - org.hibernate.Version - [34mINFO [0;39m - HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-24 14:27:50 - o.h.annotations.common.Version - [34mINFO [0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-24 14:27:50 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Starting...
+2022-11-24 14:27:51 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Start completed.
+2022-11-24 14:27:51 - org.hibernate.dialect.Dialect - [34mINFO [0;39m - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-24 14:27:51 - o.h.e.t.j.p.i.JtaPlatformInitiator - [34mINFO [0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-24 14:27:51 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-24 14:27:51 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - [31mWARN [0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-24 14:27:51 - o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - [31mWARN [0;39m - 
+
+Using generated security password: 1ee66fcd-6465-437f-b9a0-a6a20e61d517
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-11-24 14:27:51 - o.s.s.web.DefaultSecurityFilterChain - [34mINFO [0;39m - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6108fd23, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@746f8520, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c5cd2ea, org.springframework.security.web.header.HeaderWriterFilter@5213b887, org.springframework.security.web.csrf.CsrfFilter@8f589d7, org.springframework.security.web.authentication.logout.LogoutFilter@144dc2f7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@65a2e14e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4bab804f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3d3a28b5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@417751d3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@cda144a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7fb5368e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ee22768, org.springframework.security.web.session.SessionManagementFilter@6f4029e9, org.springframework.security.web.access.ExceptionTranslationFilter@73d7d676, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5740ad76]
+2022-11-24 14:27:51 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-24 14:27:52 - com.company.SuvBorBotApplication - [34mINFO [0;39m - Started SuvBorBotApplication in 2.56 seconds (JVM running for 3.09)
+2022-11-24 15:12:19 - com.zaxxer.hikari.pool.HikariPool - [31mWARN [0;39m - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m57s971ms966µs400ns).
+2022-11-24 15:19:50 - com.zaxxer.hikari.pool.HikariPool - [31mWARN [0;39m - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m819ms463µs400ns).
+2022-11-24 15:50:04 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-24 15:50:04 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown initiated...
+2022-11-24 15:50:04 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown completed.
+2022-11-24 16:04:13 - com.company.SuvBorBotApplication - [34mINFO [0;39m - Starting SuvBorBotApplication using Java 17.0.2 on WIN-3AGF5SMQQM9 with PID 8984 (D:\Main Java\suv_bor_bot\target\classes started by User in D:\Main Java\suv_bor_bot)
+2022-11-24 16:04:13 - com.company.SuvBorBotApplication - [39mDEBUG[0;39m - Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-11-24 16:04:13 - com.company.SuvBorBotApplication - [34mINFO [0;39m - The following 1 profile is active: "dev"
+2022-11-24 16:04:14 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-24 16:04:14 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2022-11-24 16:04:14 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat initialized with port(s): 8080 (http)
+2022-11-24 16:04:14 - o.a.catalina.core.StandardService - [34mINFO [0;39m - Starting service [Tomcat]
+2022-11-24 16:04:14 - o.a.catalina.core.StandardEngine - [34mINFO [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-24 16:04:14 - o.a.c.c.C.[Tomcat].[localhost].[/] - [34mINFO [0;39m - Initializing Spring embedded WebApplicationContext
+2022-11-24 16:04:14 - o.s.b.w.s.c.ServletWebServerApplicationContext - [34mINFO [0;39m - Root WebApplicationContext: initialization completed in 968 ms
+2022-11-24 16:04:14 - o.h.jpa.internal.util.LogHelper - [34mINFO [0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-24 16:04:14 - org.hibernate.Version - [34mINFO [0;39m - HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-24 16:04:14 - o.h.annotations.common.Version - [34mINFO [0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-24 16:04:15 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Starting...
+2022-11-24 16:04:15 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Start completed.
+2022-11-24 16:04:15 - org.hibernate.dialect.Dialect - [34mINFO [0;39m - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-11-24 16:04:15 - o.h.e.t.j.p.i.JtaPlatformInitiator - [34mINFO [0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-24 16:04:15 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-24 16:04:15 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - [31mWARN [0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-24 16:04:15 - o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - [31mWARN [0;39m - 
+
+Using generated security password: d7496f96-0d01-4d84-9307-4a0b648f27f6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-11-24 16:04:16 - o.s.s.web.DefaultSecurityFilterChain - [34mINFO [0;39m - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@723b8eff, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3987a1e8, org.springframework.security.web.context.SecurityContextPersistenceFilter@c7269ad, org.springframework.security.web.header.HeaderWriterFilter@8f589d7, org.springframework.security.web.csrf.CsrfFilter@4deca78, org.springframework.security.web.authentication.logout.LogoutFilter@102aa5fc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5ca8c904, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@73d7d676, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@20d65767, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@66596c4c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38445703, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44ae6b66, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@250e8712, org.springframework.security.web.session.SessionManagementFilter@1a914a00, org.springframework.security.web.access.ExceptionTranslationFilter@3d01ea33, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49bc71b4]
+2022-11-24 16:04:16 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-24 16:04:16 - com.company.SuvBorBotApplication - [34mINFO [0;39m - Started SuvBorBotApplication in 2.617 seconds (JVM running for 3.086)
+2022-11-24 16:28:13 - com.zaxxer.hikari.pool.HikariPool - [31mWARN [0;39m - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m28s36ms785µs101ns).
+2022-11-24 16:45:51 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-24 16:45:51 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown initiated...
+2022-11-24 16:45:51 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown completed.

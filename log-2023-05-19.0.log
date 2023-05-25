@@ -1,0 +1,311 @@
+2023-05-19 17:23:01 - tdtu.company.TdtuTtjApplication - [34mINFO [0;39m - Starting TdtuTtjApplication using Java 17.0.2 on WIN-3AGF5SMQQM9 with PID 15976 (D:\Main Java\tdtu_ttj\target\classes started by User in D:\Main Java\tdtu_ttj)
+2023-05-19 17:23:01 - tdtu.company.TdtuTtjApplication - [34mINFO [0;39m - The following 1 profile is active: "dev"
+2023-05-19 17:23:02 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-19 17:23:02 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Finished Spring Data repository scanning in 79 ms. Found 13 JPA repository interfaces.
+2023-05-19 17:23:03 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat initialized with port(s): 8000 (http)
+2023-05-19 17:23:03 - o.a.catalina.core.StandardService - [34mINFO [0;39m - Starting service [Tomcat]
+2023-05-19 17:23:03 - o.a.catalina.core.StandardEngine - [34mINFO [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-05-19 17:23:03 - o.a.c.c.C.[Tomcat].[localhost].[/] - [34mINFO [0;39m - Initializing Spring embedded WebApplicationContext
+2023-05-19 17:23:03 - o.s.b.w.s.c.ServletWebServerApplicationContext - [34mINFO [0;39m - Root WebApplicationContext: initialization completed in 1998 ms
+2023-05-19 17:23:03 - o.h.jpa.internal.util.LogHelper - [34mINFO [0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-19 17:23:03 - org.hibernate.Version - [34mINFO [0;39m - HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-05-19 17:23:03 - o.h.annotations.common.Version - [34mINFO [0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-19 17:23:03 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Starting...
+2023-05-19 17:23:04 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Start completed.
+2023-05-19 17:23:04 - org.hibernate.dialect.Dialect - [34mINFO [0;39m - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-19 17:23:04 - org.hibernate.id.UUIDHexGenerator - [31mWARN [0;39m - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2023-05-19 17:23:05 - o.h.e.t.j.p.i.JtaPlatformInitiator - [34mINFO [0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-19 17:23:05 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 17:23:05 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - [31mWARN [0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-19 17:23:06 - o.s.s.web.DefaultSecurityFilterChain - [34mINFO [0;39m - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@16b713dd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@379df603, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b7ebac1, org.springframework.security.web.header.HeaderWriterFilter@67b1c3af, org.springframework.web.filter.CorsFilter@58fb5b8f, org.springframework.security.web.authentication.logout.LogoutFilter@5cbaafbd, tdtu.company.config.filter.JwtFilter@5eff5e4c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b897ffb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@230dd372, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51d41b97, org.springframework.security.web.session.SessionManagementFilter@5b312863, org.springframework.security.web.access.ExceptionTranslationFilter@5f26fc4d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@29280ca6]
+2023-05-19 17:23:06 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat started on port(s): 8000 (http) with context path ''
+2023-05-19 17:23:07 - tdtu.company.TdtuTtjApplication - [34mINFO [0;39m - Started TdtuTtjApplication in 6.256 seconds (JVM running for 6.884)
+2023-05-19 17:23:07 - o.f.c.i.license.VersionPrinter - [34mINFO [0;39m - Flyway Community Edition 8.5.13 by Redgate
+2023-05-19 17:23:07 - o.f.c.i.license.VersionPrinter - [34mINFO [0;39m - See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2023-05-19 17:23:07 - o.f.c.i.license.VersionPrinter - [34mINFO [0;39m - 
+2023-05-19 17:23:07 - o.f.c.i.d.base.BaseDatabaseType - [34mINFO [0;39m - Database: jdbc:postgresql://localhost:5432/tdtu_ttj (PostgreSQL 14.2)
+2023-05-19 17:23:07 - o.f.core.internal.command.DbValidate - [34mINFO [0;39m - Successfully validated 2 migrations (execution time 00:00.022s)
+2023-05-19 17:23:07 - o.f.core.internal.command.DbMigrate - [34mINFO [0;39m - Current version of schema "public": 2
+2023-05-19 17:23:07 - o.f.core.internal.command.DbMigrate - [34mINFO [0;39m - Schema "public" is up to date. No migration necessary.
+2023-05-19 17:26:36 - o.a.c.c.C.[Tomcat].[localhost].[/] - [34mINFO [0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-19 17:26:36 - o.s.web.servlet.DispatcherServlet - [34mINFO [0;39m - Initializing Servlet 'dispatcherServlet'
+2023-05-19 17:26:36 - o.s.web.servlet.DispatcherServlet - [34mINFO [0;39m - Completed initialization in 2 ms
+2023-05-19 17:26:43 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va Avtomatika fakulteti
+2023-05-19 17:26:43 - o.a.c.c.C.[.[.[.[dispatcherServlet] - [1;31mERROR[0;39m - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.InvalidDataAccessApiUsageException: Parameter value [1-kurs] did not match expected type [tdtu.company.enums.CourseType (n/a)]; nested exception is java.lang.IllegalArgumentException: Parameter value [1-kurs] did not match expected type [tdtu.company.enums.CourseType (n/a)]] with root cause
+java.lang.IllegalArgumentException: Parameter value [1-kurs] did not match expected type [tdtu.company.enums.CourseType (n/a)]
+	at org.hibernate.query.spi.QueryParameterBindingValidator.validate(QueryParameterBindingValidator.java:54)
+	at org.hibernate.query.spi.QueryParameterBindingValidator.validate(QueryParameterBindingValidator.java:27)
+	at org.hibernate.query.internal.QueryParameterBindingImpl.validate(QueryParameterBindingImpl.java:90)
+	at org.hibernate.query.internal.QueryParameterBindingImpl.setBindValue(QueryParameterBindingImpl.java:55)
+	at org.hibernate.query.internal.AbstractProducedQuery.setParameter(AbstractProducedQuery.java:501)
+	at org.hibernate.query.internal.AbstractProducedQuery.setParameter(AbstractProducedQuery.java:122)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:393)
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.setParameter(CriteriaQueryTypeQueryAdapter.java:61)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$BindableQuery.setParameter(QueryParameterSetter.java:318)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$NamedOrIndexedQueryParameterSetter.lambda$setParameter$3(QueryParameterSetter.java:115)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$ErrorHandling$1.execute(QueryParameterSetter.java:140)
+	at org.springframework.data.jpa.repository.query.QueryParameterSetter$NamedOrIndexedQueryParameterSetter.setParameter(QueryParameterSetter.java:115)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:82)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bind(ParameterBinder.java:74)
+	at org.springframework.data.jpa.repository.query.ParameterBinder.bindAndPrepare(ParameterBinder.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.invokeBinding(PartTreeJpaQuery.java:324)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:243)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.doCreateQuery(PartTreeJpaQuery.java:106)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.createQuery(AbstractJpaQuery.java:233)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:128)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:156)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at jdk.proxy2/jdk.proxy2.$Proxy133.findByFacultyAndCourse(Unknown Source)
+	at tdtu.company.service.StudentService.getStudentByFaculty(StudentService.java:133)
+	at tdtu.company.controller.StudentController.getList(StudentController.java:63)
+	at tdtu.company.controller.StudentController$$FastClassBySpringCGLIB$$5f1fdcf3.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at tdtu.company.controller.StudentController$$EnhancerBySpringCGLIB$$5748043.getList(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at tdtu.company.config.filter.JwtFilter.doFilterInternal(JwtFilter.java:57)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-05-19 17:26:54 - t.c.controller.DormitoryController - [34mINFO [0;39m - DORMITORYSTUDENT Controller: JOIN STUDENT IN DORMITORY 
+2023-05-19 17:26:54 - t.c.controller.AttachController - [34mINFO [0;39m - /open/{id} 9d910e1c-b121-4239-92c6-1fa05bb41ecb
+2023-05-19 17:26:54 - t.c.controller.AttachController - [34mINFO [0;39m - /open/{id} c5c09951-84f5-43d6-8d86-0aa4f1d3ab12
+2023-05-19 17:27:32 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 17:27:32 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown initiated...
+2023-05-19 17:27:32 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown completed.
+2023-05-19 17:27:38 - tdtu.company.TdtuTtjApplication - [34mINFO [0;39m - Starting TdtuTtjApplication using Java 17.0.2 on WIN-3AGF5SMQQM9 with PID 4504 (D:\Main Java\tdtu_ttj\target\classes started by User in D:\Main Java\tdtu_ttj)
+2023-05-19 17:27:38 - tdtu.company.TdtuTtjApplication - [34mINFO [0;39m - The following 1 profile is active: "dev"
+2023-05-19 17:27:39 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-19 17:27:39 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Finished Spring Data repository scanning in 51 ms. Found 13 JPA repository interfaces.
+2023-05-19 17:27:39 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat initialized with port(s): 8000 (http)
+2023-05-19 17:27:39 - o.a.catalina.core.StandardService - [34mINFO [0;39m - Starting service [Tomcat]
+2023-05-19 17:27:39 - o.a.catalina.core.StandardEngine - [34mINFO [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-05-19 17:27:39 - o.a.c.c.C.[Tomcat].[localhost].[/] - [34mINFO [0;39m - Initializing Spring embedded WebApplicationContext
+2023-05-19 17:27:39 - o.s.b.w.s.c.ServletWebServerApplicationContext - [34mINFO [0;39m - Root WebApplicationContext: initialization completed in 1223 ms
+2023-05-19 17:27:40 - o.h.jpa.internal.util.LogHelper - [34mINFO [0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-19 17:27:40 - org.hibernate.Version - [34mINFO [0;39m - HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-05-19 17:27:40 - o.h.annotations.common.Version - [34mINFO [0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-19 17:27:40 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Starting...
+2023-05-19 17:27:40 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Start completed.
+2023-05-19 17:27:40 - org.hibernate.dialect.Dialect - [34mINFO [0;39m - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-19 17:27:40 - org.hibernate.id.UUIDHexGenerator - [31mWARN [0;39m - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2023-05-19 17:27:40 - o.h.e.t.j.p.i.JtaPlatformInitiator - [34mINFO [0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-19 17:27:40 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 17:27:41 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - [31mWARN [0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-19 17:27:41 - o.s.s.web.DefaultSecurityFilterChain - [34mINFO [0;39m - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4e77f29e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a598e30, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ec258f1, org.springframework.security.web.header.HeaderWriterFilter@49b6373f, org.springframework.web.filter.CorsFilter@6768dc74, org.springframework.security.web.authentication.logout.LogoutFilter@7f5c4ff8, tdtu.company.config.filter.JwtFilter@63af52a6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e4bbda4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@164cad52, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31dbca5d, org.springframework.security.web.session.SessionManagementFilter@6b7ebac1, org.springframework.security.web.access.ExceptionTranslationFilter@f9d8285, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7fb2645b]
+2023-05-19 17:27:42 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat started on port(s): 8000 (http) with context path ''
+2023-05-19 17:27:42 - tdtu.company.TdtuTtjApplication - [34mINFO [0;39m - Started TdtuTtjApplication in 4.266 seconds (JVM running for 4.696)
+2023-05-19 17:27:42 - o.f.c.i.license.VersionPrinter - [34mINFO [0;39m - Flyway Community Edition 8.5.13 by Redgate
+2023-05-19 17:27:42 - o.f.c.i.license.VersionPrinter - [34mINFO [0;39m - See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2023-05-19 17:27:42 - o.f.c.i.license.VersionPrinter - [34mINFO [0;39m - 
+2023-05-19 17:27:42 - o.f.c.i.d.base.BaseDatabaseType - [34mINFO [0;39m - Database: jdbc:postgresql://localhost:5432/tdtu_ttj (PostgreSQL 14.2)
+2023-05-19 17:27:42 - o.f.core.internal.command.DbValidate - [34mINFO [0;39m - Successfully validated 2 migrations (execution time 00:00.012s)
+2023-05-19 17:27:42 - o.f.core.internal.command.DbMigrate - [34mINFO [0;39m - Current version of schema "public": 2
+2023-05-19 17:27:42 - o.f.core.internal.command.DbMigrate - [34mINFO [0;39m - Schema "public" is up to date. No migration necessary.
+2023-05-19 17:27:45 - o.a.c.c.C.[Tomcat].[localhost].[/] - [34mINFO [0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-19 17:27:45 - o.s.web.servlet.DispatcherServlet - [34mINFO [0;39m - Initializing Servlet 'dispatcherServlet'
+2023-05-19 17:27:45 - o.s.web.servlet.DispatcherServlet - [34mINFO [0;39m - Completed initialization in 1 ms
+2023-05-19 17:27:46 - t.company.controller.LogInController - [34mINFO [0;39m - LOGIN : SUCCESSFULLY LOGIN: ProfileLoginDTO(login=PA2347777, password=olimmilo712qr)
+2023-05-19 17:27:53 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va Avtomatika fakulteti
+2023-05-19 17:28:11 - t.c.controller.FacultyController - [34mINFO [0;39m - FACULTY Controller: UPDATE FACULTY FOR ADMIN : tdtu.company.dto.faculty.FacultyUpdateDTO@32c5b9ce
+2023-05-19 17:28:19 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:28:23 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT UPDATE STUDENT: 8a8a8ad2882ea4ac01882ea938950001
+2023-05-19 17:40:23 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 17:40:23 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown initiated...
+2023-05-19 17:40:23 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown completed.
+2023-05-19 17:42:30 - tdtu.company.TdtuTtjApplication - [34mINFO [0;39m - Starting TdtuTtjApplication using Java 17.0.2 on WIN-3AGF5SMQQM9 with PID 15528 (D:\Main Java\tdtu_ttj\target\classes started by User in D:\Main Java\tdtu_ttj)
+2023-05-19 17:42:30 - tdtu.company.TdtuTtjApplication - [34mINFO [0;39m - The following 1 profile is active: "dev"
+2023-05-19 17:42:31 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-19 17:42:31 - o.s.d.r.c.RepositoryConfigurationDelegate - [34mINFO [0;39m - Finished Spring Data repository scanning in 62 ms. Found 13 JPA repository interfaces.
+2023-05-19 17:42:31 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat initialized with port(s): 8000 (http)
+2023-05-19 17:42:31 - o.a.catalina.core.StandardService - [34mINFO [0;39m - Starting service [Tomcat]
+2023-05-19 17:42:31 - o.a.catalina.core.StandardEngine - [34mINFO [0;39m - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-05-19 17:42:31 - o.a.c.c.C.[Tomcat].[localhost].[/] - [34mINFO [0;39m - Initializing Spring embedded WebApplicationContext
+2023-05-19 17:42:31 - o.s.b.w.s.c.ServletWebServerApplicationContext - [34mINFO [0;39m - Root WebApplicationContext: initialization completed in 1399 ms
+2023-05-19 17:42:31 - o.h.jpa.internal.util.LogHelper - [34mINFO [0;39m - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-19 17:42:32 - org.hibernate.Version - [34mINFO [0;39m - HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-05-19 17:42:32 - o.h.annotations.common.Version - [34mINFO [0;39m - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-19 17:42:32 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Starting...
+2023-05-19 17:42:32 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Start completed.
+2023-05-19 17:42:32 - org.hibernate.dialect.Dialect - [34mINFO [0;39m - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-05-19 17:42:32 - org.hibernate.id.UUIDHexGenerator - [31mWARN [0;39m - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2023-05-19 17:42:33 - o.h.e.t.j.p.i.JtaPlatformInitiator - [34mINFO [0;39m - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-19 17:42:33 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 17:42:33 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - [31mWARN [0;39m - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-19 17:42:34 - o.s.s.web.DefaultSecurityFilterChain - [34mINFO [0;39m - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2f006edf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20843604, org.springframework.security.web.context.SecurityContextPersistenceFilter@f047670, org.springframework.security.web.header.HeaderWriterFilter@870413c, org.springframework.web.filter.CorsFilter@28dd038f, org.springframework.security.web.authentication.logout.LogoutFilter@6ad4ef13, tdtu.company.config.filter.JwtFilter@9715d26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27d44578, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18419ab7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31d8352e, org.springframework.security.web.session.SessionManagementFilter@2f0b5d79, org.springframework.security.web.access.ExceptionTranslationFilter@7692c0e9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73973e77]
+2023-05-19 17:42:34 - o.s.b.w.e.tomcat.TomcatWebServer - [34mINFO [0;39m - Tomcat started on port(s): 8000 (http) with context path ''
+2023-05-19 17:42:35 - tdtu.company.TdtuTtjApplication - [34mINFO [0;39m - Started TdtuTtjApplication in 5.123 seconds (JVM running for 5.633)
+2023-05-19 17:42:35 - o.f.c.i.license.VersionPrinter - [34mINFO [0;39m - Flyway Community Edition 8.5.13 by Redgate
+2023-05-19 17:42:35 - o.f.c.i.license.VersionPrinter - [34mINFO [0;39m - See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2023-05-19 17:42:35 - o.f.c.i.license.VersionPrinter - [34mINFO [0;39m - 
+2023-05-19 17:42:35 - o.f.c.i.d.base.BaseDatabaseType - [34mINFO [0;39m - Database: jdbc:postgresql://localhost:5432/tdtu_ttj (PostgreSQL 14.2)
+2023-05-19 17:42:35 - o.f.core.internal.command.DbValidate - [34mINFO [0;39m - Successfully validated 2 migrations (execution time 00:00.017s)
+2023-05-19 17:42:35 - o.f.core.internal.command.DbMigrate - [34mINFO [0;39m - Current version of schema "public": 2
+2023-05-19 17:42:35 - o.f.core.internal.command.DbMigrate - [34mINFO [0;39m - Schema "public" is up to date. No migration necessary.
+2023-05-19 17:42:41 - o.a.c.c.C.[Tomcat].[localhost].[/] - [34mINFO [0;39m - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-19 17:42:41 - o.s.web.servlet.DispatcherServlet - [34mINFO [0;39m - Initializing Servlet 'dispatcherServlet'
+2023-05-19 17:42:41 - o.s.web.servlet.DispatcherServlet - [34mINFO [0;39m - Completed initialization in 0 ms
+2023-05-19 17:42:48 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:42:50 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT UPDATE STUDENT: 8a8a8ad2882ea4ac01882ea938950001
+2023-05-19 17:43:56 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:44:18 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:45:02 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:45:07 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:46:02 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:47:44 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:47:59 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:48:10 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:48:23 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:48:46 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:48:53 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:49:20 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:49:37 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:50:37 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:51:15 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:51:51 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:51:58 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:52:14 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:52:29 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 17:52:48 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:02:34 - com.zaxxer.hikari.pool.HikariPool - [31mWARN [0;39m - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m2s83ms771µs700ns).
+2023-05-19 18:06:09 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:06:15 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT UPDATE STUDENT: 8a8a8ad2882ea4ac01882ea938950001
+2023-05-19 18:07:52 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:08:27 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:08:41 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:09:26 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:09:52 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:10:04 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:10:13 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:11:16 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:11:31 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:12:09 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:12:31 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:13:52 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:13:58 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:16:03 - t.c.controller.StudentController - [34mINFO [0;39m - STUDENT Controller: STUDENT GET LIST: Elektronika va avtomatika fakulteti
+2023-05-19 18:27:22 - com.zaxxer.hikari.pool.HikariPool - [31mWARN [0;39m - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m17s291ms922µs500ns).
+2023-05-19 18:28:46 - o.s.o.j.LocalContainerEntityManagerFactoryBean - [34mINFO [0;39m - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-19 18:28:46 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown initiated...
+2023-05-19 18:28:46 - com.zaxxer.hikari.HikariDataSource - [34mINFO [0;39m - HikariPool-1 - Shutdown completed.
